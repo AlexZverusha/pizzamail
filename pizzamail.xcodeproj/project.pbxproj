@@ -21,6 +21,7 @@
 		87504E16193A278600658A2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87504DF8193A278600658A2C /* UIKit.framework */; };
 		87504E1E193A278600658A2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87504E1C193A278600658A2C /* InfoPlist.strings */; };
 		87504E20193A278600658A2C /* pizzamailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87504E1F193A278600658A2C /* pizzamailTests.m */; };
+		87504E2A193A282B00658A2C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87504E29193A282B00658A2C /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		87504E1B193A278600658A2C /* pizzamailTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pizzamailTests-Info.plist"; sourceTree = "<group>"; };
 		87504E1D193A278600658A2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		87504E1F193A278600658A2C /* pizzamailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pizzamailTests.m; sourceTree = "<group>"; };
+		87504E29193A282B00658A2C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87504E2A193A282B00658A2C /* MessageUI.framework in Frameworks */,
 				87504DF7193A278600658A2C /* CoreGraphics.framework in Frameworks */,
 				87504DF9193A278600658A2C /* UIKit.framework in Frameworks */,
 				87504DF5193A278600658A2C /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		87504DF3193A278600658A2C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				87504E29193A282B00658A2C /* MessageUI.framework */,
 				87504DF4193A278600658A2C /* Foundation.framework */,
 				87504DF6193A278600658A2C /* CoreGraphics.framework */,
 				87504DF8193A278600658A2C /* UIKit.framework */,
